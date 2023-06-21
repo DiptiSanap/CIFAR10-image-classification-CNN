@@ -1,4 +1,4 @@
-# CIFAR-10 Image Classification using CNN with 87% accuracy
+# CIFAR-10 Image Classification using CNN from scratch and transfer learning with 87% accuracy
 
 This repository contains code for performing image classification on the CIFAR-10 dataset using a Convolutional Neural Network (CNN) implemented in a Jupyter Notebook. The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 different classes, with 6,000 images per class.
 
@@ -10,7 +10,7 @@ This project aims to demonstrate the process of building and training a CNN mode
 
 - Data Preprocessing: The images in the dataset are preprocessed by normalizing the pixel values and performing one-hot encoding on the class labels.
 
-- Model Architecture: The CNN model architecture is defined using the `tf.keras.Sequential` API. It consists of multiple convolutional layers, max-pooling layers, and fully connected layers. The model summary is displayed, showcasing the number of parameters and the layer configuration.
+- Model Architecture: The CNN model architecture is defined using the `tf.keras.Sequential` API. It consists of multiple convolutional layers, max-pooling, and fully connected layers. The model summary is displayed, showcasing the number of parameters and the layer configuration.
 
 - Model Training: The model is trained using the training set images and labels. The training process involves specifying the loss function, optimizer, and metrics for evaluation. The training progress, including the loss and accuracy, is logged and displayed.
 
@@ -18,7 +18,7 @@ This project aims to demonstrate the process of building and training a CNN mode
 
 - Prediction Example: An example is provided to showcase how to use the trained model to predict the class labels of unseen images.
 
-- Model building using Transfer Learning with DenseNet121 architecture
+- Transfer Learning: Model building using Transfer Learning with DenseNet121 architecture
 
 ## Requirements
 
@@ -33,26 +33,10 @@ You can install the required packages by running the following command:
 ```shell
 pip install tensorflow jupyter
 ```
+## CNN from scratch architecture
+![image](https://github.com/DiptiSanap/CIFAR10-image-classification-CNN/assets/107847530/f4f6b965-f545-422b-abdb-6a6ca6d07857)
 
-## Usage
 
-1. Clone the repository to your local machine:
-
-```shell
-git clone https://github.com/DiptiSanap/CIFAR10-image-classification-CNN.git
-```
-
-2. Launch Jupyter Notebook:
-
-```shell
-jupyter notebook
-```
-
-3. Open the `CIFAR10_image_classification_CNN.ipynb` notebook in Jupyter.
-
-4. Follow the instructions in the notebook to execute the cells and run the code step by step.
-
-5. Modify the code as needed, such as adjusting hyperparameters, adding regularization techniques, or experimenting with different architectures.
 
 ## Results
 
