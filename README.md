@@ -38,10 +38,15 @@ pip install tensorflow jupyter
 
 
 
-## Results
+## Results of CNN from scratch model
 
-The accuracy of the trained CNN model on the CIFAR-10 testing set is X%. The detailed results, including the loss and accuracy curves, can be found in the notebook.
+The accuracy of the trained CNN model on the CIFAR-10 testing set is 87%. The detailed results, including the loss and accuracy curves, can be found in the notebook.
 ![cifar10_30_epochs](https://github.com/DiptiSanap/CIFAR10-image-classification-CNN/assets/107847530/45e274c0-cf03-47c9-9502-3f09862298d5)
+
+## Results of transfer learning using DenseNet121 architecture
+![image](https://github.com/DiptiSanap/CIFAR10-image-classification-CNN/assets/107847530/03edf7c3-0616-4666-9d72-df2663f51bb2)
+
+
 
 
 ## License
